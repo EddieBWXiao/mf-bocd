@@ -19,11 +19,11 @@ def bocd(data, model, hazard):
 
         # 3. Evaluate predictive probabilities.
         log_pis = model.log_pred_prob(t, x)
-
+        
         # 4. Calculate growth probabilities.
         # 5. Calculate changepoint probabilities.
         new_log_joint = log_rl_joint(log_pis, log_message, hazard)
-
+        #print(new_log_joint)
         # 6. Calculate evidence
         # 7. Determine run length distribution.
         model.update_rl_posterior(t, new_log_joint)
