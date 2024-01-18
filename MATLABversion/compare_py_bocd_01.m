@@ -1,5 +1,5 @@
 %compare if same as python 
-%(/Users/xiaobowen/Documents/GitHub/mf-bocd/bocd_only_bernoulli_checkMATLAB.ipynb)
+%(bocd_only_bernoulli_checkMATLAB.ipynb)
 
 
 alpha0_true = 0.1;
