@@ -4,6 +4,10 @@ Also aided by the explanations & coded provided in:
 https://gregorygundersen.com/blog/2019/08/13/bocd/
 https://gregorygundersen.com/blog/2020/10/20/implementing-bocd/
 
+bocd_only_bernoulli.ipynb: largely following the example notebook, for just the bocd
+bocd_only_bernoulli_checkMATLAB.ipynb: exports result into "MATLAB version" (for comparison)
+MATLABversion: folder for self-contained MATLAB script implementing the bocd
+
 ## Forked from the following:
 ## Active multi-fidelity Bayesian online changepoint detection
 
