@@ -1,3 +1,10 @@
+A beginner's attempt to use the original Bayesian online changepoint detection algorithm for binary data, to implement it in MATLAB, and to compare the Python & MATLAB versions
+
+Also aided by the explanations & coded provided in:
+https://gregorygundersen.com/blog/2019/08/13/bocd/
+https://gregorygundersen.com/blog/2020/10/20/implementing-bocd/
+
+## Forked from the following:
 ## Active multi-fidelity Bayesian online changepoint detection
 
 Paper: [https://arxiv.org/abs/2103.14224](https://arxiv.org/abs/2103.14224)
