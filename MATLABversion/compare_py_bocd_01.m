@@ -34,6 +34,6 @@ hold on
 plot(params,'DisplayName','true p')
 plot(out.est_p,'k--','DisplayName','MATLAB version')
 plot(est_p_py,'DisplayName','Python version')
-legend
+legend('Location','Northwest')
 set(gcf,'Position',[143 649 839 149])
 
